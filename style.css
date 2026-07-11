@@ -12,11 +12,9 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 24px 0;
-    width: 1500px;
-    margin: 0 auto;
 }
 
 .nav-links {
@@ -57,8 +55,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
     color: #fff;
+    padding: 150px 0 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +71,6 @@ body {
 
 .hero_container p {
     font-size: 22px;
-    width: 50%;
     text-align: center;
     margin: 45px 0 300px 0;
 }
@@ -136,4 +133,110 @@ p.department {
 p {
 
     color: #575757;
+}
+
+
+.all_pricing_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing_container>h1,
+.pricing_container>p {
+    text-align: center;
+    color: #575757;
+    font-size: 16px;
+}
+
+.pricing_container>h1 {
+    color: #0D1B2A;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 150px;
+
+
+}
+
+.pricing_container>p {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.pricing_card {
+    border: 1px solid #57575734;
+    padding: 30px 40PX;
+    border-radius: 10px;
+    width: 375px;
+    height: auto;
+}
+
+.pricing_card h6 {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #888888;
+
+}
+
+.pricing_card h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.pricing_card p {
+    font-size: 13px;
+    color: #888888;
+}
+
+
+ul.pricing_features {
+    border-top: 1px solid #57575734;
+    padding: 20px 0;
+
+    margin-top: 20px;
+    line-height: 30px;
+
+    color: #333333;
+    font-size: 14px;
+}
+
+ul.pricing_features>li::marker {
+    color: #1D4ED8;
+}
+
+.btn-outline {
+    color: #2563EB;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #1D4ED8;
+    padding: 13px 0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.pro_pricing,
+.pro_pricing h1,
+.pro_pricing h6,
+.pro_pricing p,
+.pro_pricing li,
+.pro_pricing a {
+    color: #fff;
+}
+
+.pro_pricing {
+    background: #0D1B2A;
+}
+
+.pro_pricing .btn-outline {
+    background: #2563EB;
+}
+
+.pro_pricing>h6 {
+    color: #93C5FD;
 }

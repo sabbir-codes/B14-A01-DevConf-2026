@@ -240,3 +240,23 @@ ul.pricing_features>li::marker {
 .pro_pricing>h6 {
     color: #93C5FD;
 }
+
+footer {
+    background: #0D1B2A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    margin-top: 80px;
+}
+
+ul.footer_terms {
+    display: flex;
+    align-items: center;
+}
+
+ul.footer_terms li {
+    color: #d6d3d364;
+    list-style: none;
+    padding: 0 20px;
+}

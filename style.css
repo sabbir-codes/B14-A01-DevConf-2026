@@ -1,50 +1,83 @@
 *,
 *::before,
-*::after{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-family:"Inter",sans-serif;
+body {
+    font-family: "Inter", sans-serif;
 }
 
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:24px 80px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
 }
 
-.nav-links{
-    display:flex;
-    list-style:none;
-    gap:24px;
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
 }
 
-.nav-links a{
-    text-decoration:none;
-    color:#575757;
-    font-size:16px;
-    transition:.3s;
+.nav-links a {
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+    transition: .3s;
 }
 
-.nav-links a:hover{
-    color:#1D4ED8;
+.nav-links a:hover {
+    color: #1D4ED8;
 }
 
-.btn-register{
-    display:inline-block;
-    padding:14px 32px;
-    background:#1D4ED8;
-    color:#fff;
-    text-decoration:none;
-    font-weight:700;
-    border-radius:10px;
-    transition:.3s;
+.btn-register {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #1D4ED8;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: .3s;
 }
 
-.btn-register:hover{
-    background:#1742b8;
+.btn-register:hover {
+    background: #1742b8;
+}
+
+
+.hero_container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0)), url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero_container h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero_container p {
+    font-size: 22px;
+    width: 50%;
+    text-align: center;
+    margin: 45px 0 300px 0;
+}
+
+.hero_container a.btn-register {
+    padding: 20px 60px;
+    font-size: 24px;
+    font-weight: 700;
 }

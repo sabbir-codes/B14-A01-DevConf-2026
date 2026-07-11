@@ -14,7 +14,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 80px;
+    padding: 24px 0;
+    width: 1500px;
+    margin: 0 auto;
 }
 
 .nav-links {
@@ -82,19 +84,56 @@ body {
     font-weight: 700;
 }
 
+.card_container {
+    width: 80%;
+    margin: 0 auto;
+}
 
-.card_container h1{
+.card_container h1 {
     text-align: center;
+    margin: 90px 0 70px 0;
+    color: #000102;
+    font-size: 56px;
+    font-weight: 700;
 }
 
 .cards_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 50px;
+    gap: 35px;
 }
 
 .card {
+    width: 100%;
     border: 1px solid #57575734;
     border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.details {
+    padding: 30px 0 30px 30px;
+}
+
+.details h3 {
+    margin: 10px 0;
+}
+
+p.department {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.details h3 {
+    font-size: 20px;
+    color: #0D1B2A;
+}
+
+p {
+
+    color: #575757;
 }

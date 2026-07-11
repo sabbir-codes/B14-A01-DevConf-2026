@@ -1,3 +1,50 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    background: #e27f05;
+    font-family:"Inter",sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:24px 80px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:24px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#575757;
+    font-size:16px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#1D4ED8;
+}
+
+.btn-register{
+    display:inline-block;
+    padding:14px 32px;
+    background:#1D4ED8;
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn-register:hover{
+    background:#1742b8;
 }

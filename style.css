@@ -250,6 +250,12 @@ footer {
     margin-top: 80px;
 }
 
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+}
+
 ul.footer_terms {
     display: flex;
     align-items: center;
@@ -259,6 +265,17 @@ ul.footer_terms li {
     color: #d6d3d364;
     list-style: none;
     padding: 0 20px;
+}
+
+
+.icon_set {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 40px;
+    justify-content: right;
+    margin-right: 20px;
+    padding-top: 20px;
 }
 
 
